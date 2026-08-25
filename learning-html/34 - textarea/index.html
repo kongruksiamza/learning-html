@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TextArea</title>
+</head>
+
+<body>
+    <h2>แบบฟอร์มสมัครงาน</h2>
+    <form method="GET">
+        <fieldset>
+            <legend>ข้อมูลพื้นฐาน</legend>
+            <label for="fname">ชื่อ:</label><br>
+            <input type="text" name="firstname" id="fname" placeholder="ไม่ต้องระบุคำนำหน้า" required><br>
+            <label for="lname">นามสกุล:</label><br>
+            <input type="text" name="lastname" id="lname" placeholder="ป้อนนามสกุลของคุณ" required><br>
+            <label for="address">ที่อยู่:</label><br>
+            <textarea 
+                name="address" 
+                rows="5" 
+                cols="30" 
+                placeholder="ป้อนที่อยู่ของคุณ" 
+                required
+                maxlength="5"
+                id="address"></textarea>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>ปุ่มดำเนินการ</legend>
+            <button type="submit">บันทึก</button>
+            <button type="reset">ยกเลิก</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>

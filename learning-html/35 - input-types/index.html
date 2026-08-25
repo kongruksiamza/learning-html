@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Types</title>
+</head>
+
+<body>
+    <h2>แบบฟอร์มสมัครงาน</h2>
+    <form method="GET">
+        <fieldset>
+            <legend>ข้อมูลพื้นฐาน</legend>
+            <label for="fname">ชื่อ:</label><br>
+            <input type="text" name="firstname" id="fname" placeholder="ไม่ต้องระบุคำนำหน้า" required><br>
+            <label for="lname">นามสกุล:</label><br>
+            <input type="text" name="lastname" id="lname" placeholder="ป้อนนามสกุลของคุณ" required><br>
+            <label for="address">ที่อยู่:</label><br>
+            <textarea 
+                name="address" 
+                rows="5" 
+                cols="30" 
+                placeholder="ป้อนที่อยู่ของคุณ" 
+                required
+                maxlength="5"
+                id="address"></textarea>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>ข้อมูลแบบพิเศษ</legend>
+            <!-- email -->
+            <label for="email">อีเมล:</label><br>
+            <input type="email" 
+                name="email" 
+                placeholder="example@email.com"
+                id="email"><br>
+            <!-- password -->
+            <label for="password">รหัสผ่าน:</label><br>
+            <input type="password" name="password" id="password"><br>
+            <!-- birthdate -->
+            <label for="birthdate">วันเกิด:</label><br>
+            <input type="date" name="birthdate" id="birthdate"><br>
+            <!-- time -->
+            <label for="time">เวลา:</label><br>
+            <input type="time" name="time" id="time"><br>
+            <!-- number -->
+            <label for="age">อายุ (ปี):</label><br>
+            <input type="number" name="age" id="age" value="20"><br>
+            <!-- telephone -->
+            <label for="telephone">เบอร์ติดต่อ:</label><br>
+            <input type="tel" name="telephone" id="telephone"><br>
+            <!-- website -->
+            <label for="website">เว็บไซต์:</label><br>
+            <input type="url" name="website" id="website"><br>
+            <!-- color -->
+            <label for="color">สีที่ชอบ:</label><br>
+            <input type="color" name="color" id="color" value="yellow"><br>
+            <!-- slider -->
+            <label for="salary">เงินเดือน:</label><br>
+            <input type="range" name="salary" id="salary"><br>
+            <!-- hidden -->
+            <input type="hidden" name="empID" value="EMP001">
+            <!-- week -->
+            <label for="week">สัปดาห์:</label><br>
+            <input type="week" name="week" id="week"><br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>ปุ่มดำเนินการ</legend>
+            <button type="submit">บันทึก</button>
+            <button type="reset">ยกเลิก</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>

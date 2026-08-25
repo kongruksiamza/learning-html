@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Basic</title>
+</head>
+<body>
+    <!-- รูปแบบที่ 1 -->
+    <h2>ฟอร์มบันทึกข้อมูล</h2>
+    <form method="GET">
+        <input type="text" name="product" required>
+        <button type="submit">บันทึก</button>
+        <button type="reset">ยกเลิก</button>
+    </form>
+    <hr>
+    <!-- รูปแบบที่ 2 -->
+    <h2>ฟอร์มค้นหาสินค้า</h2>
+    <form method="GET">
+        <input type="search" name="product" required>
+        <button type="submit">ค้นหา</button>
+    </form>
+
+    <hr>
+    <!-- รูปแบบที่ 3 -->
+    <h2>ฟอร์มทั่วไป (POST)</h2>
+    <form method="POST" action="/save-user">
+        <input type="text" name="username" id="username">
+        <input type="submit" value="สมัคร">
+        <input type="reset" value="ล้าง">
+        <input type="button" value="+">
+        <button type="button">-</button>
+    </form>
+
+</body>
+</html>
