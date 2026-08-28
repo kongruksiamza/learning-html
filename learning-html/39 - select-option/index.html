@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select & Option</title>
+</head>
+
+<body>
+    <form method="GET">
+        <label for="products">ชื่อสินค้า:</label>
+        <select name="products" id="products">
+            <option value="">--เลือกสินค้า--</option>
+            <optgroup label="อุปกรณ์ไอที">
+                <option value="หูฟัง">หูฟัง</option>
+                <option value="เมาส์" disabled>เมาส์</option>
+                <option value="คีย์บอร์ด">คีย์บอร์ด</option>
+            </optgroup>
+
+            <optgroup label="เฟอร์นิเจอร์">
+                <option value="เก้าอี้">เก้าอี้</option>
+                <option value="โซฟา">โซฟา</option>
+                <option value="เตียงนอน">เตียงนอน</option>
+            </optgroup>
+        </select>
+        <button type="submit">🛒สั่งซื้อ</button>
+    </form>
+</body>
+
+</html>

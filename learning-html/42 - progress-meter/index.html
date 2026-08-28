@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress & Meter</title>
+</head>
+<body>
+    <!-- progress 1-->
+    <progress></progress>
+    <hr>
+
+    <!-- progress2 -->
+    <label for="download">กำลังดาวน์โหลด : 70%</label><br>
+    <progress id="download" value="70" max="100"></progress>
+    <hr>
+
+    <!-- meter 1-->
+    <label>ระดับแบตเตอรี่มือถือ:</label>
+    <meter 
+        value="21"
+        min="0" max="100"
+        low="20" high="80"
+        optimum="50"
+    ></meter> 21%
+    <p>ช่วงแบตเตอรี่</p>
+    <ul>
+        <li>น้อยกว่า 20 = แบตต่ำ</li>
+        <li>20 - 80 = ปกติ</li>
+        <li>มากกว่า 80 = แบตเยอะ</li>
+    </ul>
+    <hr>
+
+    <!-- meter 2 -->
+    <label>ระดับความร้อน CPU:</label>
+    <meter 
+        value="80"
+        min="0" max="100"
+        low="30" high="70"
+        optimum="50"
+    ></meter> 80&deg;C
+    <p>ช่วงความร้อน</p>
+    <ul>
+        <li>น้อยกว่า 30 = ต่ำ</li>
+        <li>30 - 70 = ปกติ</li>
+        <li>มากกว่า 70 = สูง (อันตราย)</li>
+    </ul>
+    
+</body>
+</html>

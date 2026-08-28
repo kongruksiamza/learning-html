@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio Button</title>
+</head>
+<body>
+    <form method="GET">
+        <fieldset>
+            <legend>แบบประเมินความพึงพอใจ</legend>
+            <p>คำถาม : คุณชอบเว็บไซต์ของเราหรือไม่ ?</p>
+            <input type="radio" 
+                    name="rating" 
+                    value="5"
+                    id="good">
+            <label for="good">ชอบมาก</label>
+            <input type="radio" name="rating" value="3" id="medium" checked>
+            <label for="medium">เฉยๆ</label>
+            <input type="radio" name="rating" value="1" id="bad" disabled>
+            <label for="bad">ควรปรับปรุง</label>
+        </fieldset>
+        <br>
+        <button type="submit">ส่งคำตอบ</button>
+    </form>
+</body>
+</html>

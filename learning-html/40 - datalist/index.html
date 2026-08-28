@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DataList</title>
+</head>
+<body>
+    <!-- ตัวอย่างที่ 1 -->
+    <form method="GET">
+        <label for="province">ระบุจังหวัด:</label>
+        <input list="province-list" 
+            name="province" id="province"
+            placeholder="เลือกหรือพิมพ์ชื่อจังหวัดของคุณ"
+            >
+        <!-- รายการข้อมูลจังหวัด -->
+        <datalist id="province-list">
+            <option value="กรุงเทพมหานคร">
+            <option value="ขอนแก่น">
+            <option value="ภูเก็ต">
+            <option value="เชียงใหม่">
+            <option value="ระยอง">
+        </datalist>
+        <button type="submit">บันทึก</button>
+    </form>
+
+    <hr>
+
+    <!-- ตัวอย่างที่ 2 -->
+    <form method="GET">
+        <label for="currency">ระบุสกุลเงิน:</label>
+        <input list="currency-list" 
+            name="currency" id="currency"
+            placeholder="เลือกหรือพิมพ์ชื่อสกุลเงิน"
+            >
+        <!-- รายการข้อมูลสกุลเงิน -->
+        <datalist id="currency-list">
+            <option value="THB" label="บาทไทย">
+            <option value="USD" label="ดอลลาร์สหรัฐ">
+            <option value="EUR" label="ยูโร">
+            <option value="GBP" label="ปอนด์">
+            <option value="JPY" label="เยนญี่ปุ่น">
+        </datalist>
+        <button type="submit">ส่งข้อมูล</button>
+    </form>
+</body>
+</html>
