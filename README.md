@@ -82,3 +82,15 @@
 |   48  | DataList |[ดูโค้ด](https://github.com/kongruksiamza/learning-html/tree/main/learning-html/40%20-%20datalist)|
 |   49  | HTML Entities |[ดูโค้ด](https://github.com/kongruksiamza/learning-html/tree/main/learning-html/41%20-%20entities)|
 |   50  | Progress & Meter |[ดูโค้ด](https://github.com/kongruksiamza/learning-html/tree/main/learning-html/42%20-%20progress-meter)|
+
+## 🏫 แหล่งเรียนรู้เพิ่มเติม
+- [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [Whatwg](https://html.spec.whatwg.org/multipage/)
+- [HTML Reference](https://htmlreference.io/)
+- [W3C](https://www.w3.org/standards/)
+- [W3School](https://www.w3schools.com/html/)
+- [Emmet Docs](https://docs.emmet.io/cheat-sheet/)
+
+## 🎓 คอร์สเรียนที่น่าสนใจ [![Udemy](https://img.shields.io/badge/Udemy-A435F0?logo=udemy&logoColor=fff)](https://www.udemy.com/user/kong-ruksiam/)
+- [พัฒนาเว็บด้วย JavaScript 40 Workshop](https://www.udemy.com/course/javascript-30-workshop/?referralCode=E5EF637C90FC6B8A8E26)
+- [สร้างเว็บแอพพลิเคชั่นด้วย JavaScript](https://www.udemy.com/course/javascript-building-20-projects/?referralCode=938570689EA33E12823C)
